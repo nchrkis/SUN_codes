@@ -52,8 +52,8 @@ SUN–GMM produces:
 
 Install the required Python packages:
 
-```bash
 pip install numpy pandas matplotlib scikit-learn scipy
+
 
 🚀 How to Run RUN-ICON (Separately)
 
