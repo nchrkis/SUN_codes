@@ -62,30 +62,31 @@ RUN-ICON identifies stable, reproducible cluster centres.
 
 1. Set your dataset filename
 
-Edit inside RUN_ICON.py:
+  Edit inside RUN_ICON.py:
 
-file_path = "your_file.csv"
+  file_path = "your_file.csv"
 
 2. Select number of clusters to test
-i_cluster = 3
+  i_cluster = 3
 
 
-To test different cluster numbers, manually change this value and rerun the script.
+  To test different cluster numbers, manually change this value and rerun the script.
 
 3. Run RUN-ICON
-python RUN_ICON.py
+  python RUN_ICON.py
 
 RUN-ICON generates:
 
-most_common_centroid.txt → dominant centres
+- most_common_centroid.txt → dominant centres
 
-denormalized_most_common_centroid.txt
+- denormalized_most_common_centroid.txt
 
-final_RUN_ICON_cluster_sizes.txt
+- final_RUN_ICON_cluster_sizes.txt
 
-RUN & ICON stability metrics printed to screen
+RUN-ICON stability metrics printed to screen
 
 These centres are required for the SUN–GMM step.
+
 ---
 
 ## 🚀 How to Run SUN–GMM (Separately)
