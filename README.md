@@ -60,9 +60,9 @@ pip install numpy pandas matplotlib scikit-learn scipy
 
 RUN-ICON identifies stable, reproducible cluster centres.
 
-1. Set your dataset filename
+- Set your dataset filename
 
-  Edit inside RUN_ICON.py:
+ Edit inside RUN_ICON.py:
 
   file_path = "your_file.csv"
 
