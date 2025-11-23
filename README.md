@@ -81,9 +81,9 @@ RUN-ICON generates:
 
 - final_RUN_ICON_cluster_sizes.txt
 
-RUN-ICON stability metrics printed to screen
+- RUN-ICON stability metrics printed to screen
 
-These centres are required for the SUN–GMM step.
+These dominant centres in ``most_common_centroid.txt" are required for the SUN–GMM step.
 
 ---
 
