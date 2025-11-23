@@ -129,7 +129,7 @@ To run the entire SUN framework in sequence:
 
 python RUN_ICON.py
 
-python SUN_GMM.py
+python GMM_SUN.py
 
 
 This produces:
