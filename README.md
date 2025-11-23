@@ -55,7 +55,7 @@ Install the required Python packages:
 pip install numpy pandas matplotlib scikit-learn scipy
 
 
-🚀 How to Run RUN-ICON (Separately)
+##🚀 How to Run RUN-ICON (Separately)
 
 RUN-ICON identifies stable, reproducible cluster centres.
 
