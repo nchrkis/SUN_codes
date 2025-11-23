@@ -83,7 +83,7 @@ RUN-ICON generates:
 
 - RUN-ICON stability metrics printed to screen
 
-These dominant centres in ``most_common_centroid.txt" are required for the SUN–GMM step.
+These dominant centres in "most_common_centroid.txt" are required for the SUN–GMM step.
 
 ---
 
@@ -128,6 +128,7 @@ SUN–GMM generates:
 To run the entire SUN framework in sequence:
 
 python RUN_ICON.py
+
 python SUN_GMM.py
 
 
@@ -135,7 +136,7 @@ This produces:
 
 - stable initial clusters (RUN-ICON)
 
-- robabilistic refinement (SUN–GMM)
+- probabilistic refinement (SUN-GMM)
 
 - cluster uncertainty metrics
 
@@ -148,33 +149,27 @@ This produces:
 ## 📊 What SUN Provides
 ✔ From RUN-ICON:
 
-stable dominant cluster centres
+- stable dominant cluster centres
 
-reproducibility-based cluster validation
+- reproducibility-based cluster validation
 
-RUN/ICON stability metrics
+- RUN/ICON stability metrics
 
 improved selection of optimal number of clusters
 
 ✔ From SUN–GMM:
 
-refined cluster means
+- refined cluster means
 
-covariance matrices
+- covariance matrices
 
-soft membership probabilities
+- soft membership probabilities
 
-centre/edge uncertainty ranges
+- centre/edge uncertainty ranges
 
-final denormalised cluster data
+- final denormalised cluster data
 
-interpretable and physically meaningful cluster segmentation
-
----
-
-## 🧠 Minimal Example Workflow
-python RUN_ICON.py
-python SUN_GMM.py
+- interpretable and physically meaningful cluster segmentation
 
 ---
 
