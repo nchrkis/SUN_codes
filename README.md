@@ -127,7 +127,7 @@ SUN–GMM generates:
 
 To run the entire SUN framework in sequence:
 
-python RUN_ICON.py
+python RUN_ICON_SUN.py
 
 python GMM_SUN.py
 
