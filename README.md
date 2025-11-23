@@ -69,7 +69,8 @@ RUN-ICON identifies stable, reproducible cluster centres.
   
   To test different cluster numbers, manually change this value and rerun the script.
 
-3. Run RUN-ICON
+- Run RUN-ICON
+
   python RUN_ICON.py
 
 RUN-ICON generates:
