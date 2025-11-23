@@ -71,7 +71,7 @@ RUN-ICON identifies stable, reproducible cluster centres.
 
 - Run RUN-ICON
 
-  python RUN_ICON.py
+  python RUN_ICON_SUN.py
 
 RUN-ICON generates:
 
@@ -91,36 +91,35 @@ These centres are required for the SUN–GMM step.
 
 SUN–GMM refines clusters and performs uncertainty analysis.
 
-1. Ensure RUN-ICON has already produced:
-most_common_centroid.txt
+- Ensure RUN-ICON has already produced: most_common_centroid.txt
 
-2. Set your dataset filename
+- Set your dataset filename
+  In SUN_GMM.py: filename = "your_file.csv"
 
-In SUN_GMM.py:
+- Set number of clusters
 
-filename = "your_file.csv"
+  No_clusters = 3
 
-3. Set number of clusters
-No_clusters = 3
+- Run SUN–GMM
 
-4. Run SUN–GMM
-python SUN_GMM.py
+  python GMM_SUN.py
+
 
 SUN–GMM generates:
 
-refined cluster centres
+- refined cluster centres
 
-covariance matrices
+- covariance matrices
 
-soft membership probabilities
+- soft membership probabilities
 
-probability ranges (centre vs edge)
+- probability ranges (centre vs edge)
 
-denormalised cluster CSVs
+- denormalised cluster CSVs
 
-2D cluster plots
+- 2D cluster plots
 
-Printed console output includes cluster sizes and uncertainty information.
+- Printed console output includes cluster sizes and uncertainty information.
 
 ---
 
@@ -134,15 +133,15 @@ python SUN_GMM.py
 
 This produces:
 
-stable initial clusters (RUN-ICON)
+- stable initial clusters (RUN-ICON)
 
-probabilistic refinement (SUN–GMM)
+- robabilistic refinement (SUN–GMM)
 
-cluster uncertainty metrics
+- cluster uncertainty metrics
 
-denormalised cluster files
+- denormalised cluster files
 
-visualisation plots
+- visualisation plots
 
 ---
 
