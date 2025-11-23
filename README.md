@@ -65,7 +65,8 @@ RUN-ICON identifies stable, reproducible cluster centres.
      Edit inside RUN_ICON.py:
      file_path = "your_file.csv"
 
-- Select number of clusters to test: i_cluster = 3 To test different cluster numbers, manually change this value and rerun the script.
+- Select number of clusters to test: i_cluster = 3
+  To test different cluster numbers, manually change this value and rerun the script.
 
 3. Run RUN-ICON
   python RUN_ICON.py
